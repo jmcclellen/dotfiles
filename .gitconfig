@@ -2,3 +2,12 @@
 	name = Jason McClellen
 	email = Jason McClellen
 	email = jmcclellen@gmail.com
+[alias]
+	s = status
+	c = commit
+	mt = mergetool
+	dt = difftool
+	l1 = log -1
+[merge]
+	tool = kdiff3
+	tool = meld
