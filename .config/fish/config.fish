@@ -4,6 +4,8 @@ if status --is-interactive
     source "$BASE16_SHELL/profile_helper.fish"
 end
 
+source "$HOME/.config/base16-fzf/fish/base16-default-dark.fish"
+
 # Aliases
 alias usr_cfg='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 

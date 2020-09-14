@@ -8,6 +8,8 @@
 	mt = mergetool
 	dt = difftool
 	l1 = log -1
+	a = add
+	aa = add -a
 [merge]
 	tool = kdiff3
 	tool = meld
